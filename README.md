@@ -29,7 +29,8 @@ To examine this question, data from different sources needed to be pulled and ap
 
 ![Data](slides_pics/Slide4.PNG)
 
-Meanwhile, demographic details such as population of each neighborhood and racial population makeup of each neighborhood is pulled from the Census. However, this data was only formatted in the form of census tract and not each neighborhood. To resolve this, I conducted areal interpolation, a method used to estimate data from one set of geographic zone to another set. In this case, I was estimating the demographic values of each neighborhood from census tract since I did not have access to neighborhood population data. For example, in attempting to figure out the demographic details of Neighborhood J, I take the proportion of census tract A that overlaps in Neighborhood J and combined it with the proportion of census tract C (80%), census tract D (94%), and census tract E (55%) that also overlapped in Neighborhood J. The combination of these tract's proportions are then used as the estimates for the neighborhood's demographic estimates. 
+#### Areal Interpolation
+Meanwhile, demographic details such as population of each neighborhood and racial population makeup of each neighborhood is pulled from the Census. However, this data was only formatted in the form of census tract and not each neighborhood. To resolve this, I conducted areal interpolation, a method used to estimate data from one set of geographic zone to another set. In this case, I was estimating the demographic values of each neighborhood from census tract since I did not have access to neighborhood population data. For example, in attempting to figure out the demographic details of Neighborhood J, I take the proportion of census tract A that overlaps in Neighborhood J and combined it with the proportion of census tract C (80%), census tract D (94%), and census tract E (55%) that also overlapped in Neighborhood J. The combination of these tract's proportions are then used as the estimates for the neighborhood's demographic estimates. Finally, I combined this areal interpolated data with the law enforcement data.
 
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="slides_pics/Slide5.PNG" alt="Areal1" width="400" />
@@ -40,3 +41,11 @@ Meanwhile, demographic details such as population of each neighborhood and racia
 <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
   <img src="slides_pics/Slide9.PNG" alt="Areal5" width="400" />
 </div>
+
+#### A Measure of Disparity
+To assess disparity, I created a disparity index. It is defined as the vehicle stop rate experienced by a given racial group (total number of stop for a given group in a neighborhood divided by all stops in the neighborhood) divided by the population proportion of that given group (total number of individuals of a given group in a neighborhood divided by total population in the neighborhood).
+![DIndex](slides_pics/Slide12.PNG)
+
+##### An Example 
+For example, if a given neighborhood has 10% of Black residents and that 50 out of 100 stops in that neighborhood are Black drivers, we will have a disparity index of 5.0. The way to interpret this is the Black drivers are stopped 5 times more than their population size in that given neighborhood. 
+![DIndexExample](slides_pics/Slide12.PNG)
