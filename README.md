@@ -58,5 +58,5 @@ Another way to look at whether disparity exists is to compare how many neighborh
 ![Result2](slides_pics/Slide15.PNG)
 
 Below, I present the raw number of stops experienced by Black and White drivers in all neighborhoods while accounting for the percentage of their respective populations. As you can see in this map, Black drivers are stopped a lot more in White dominant neighborhoods than White drivers being stopped in Black dominant neighborhood. 
-![Result3](/veh_blackwhite_map.PNG)
+![Result3](veh_blackwhite_map.PNG)
 
