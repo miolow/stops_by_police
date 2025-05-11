@@ -22,4 +22,4 @@ The following libraries and tools were used:
 ## A Closer Look 
 ### Context
 In many American neighborhoods, a routine traffic stop can reflect more than a broken tail-light or a speeding ticket. It can expose patterns of racial disparity in policing. In this project, we ask the question, are Black drivers getting stopped more so than White drivers? A variety of data and techniques were employed to examine this question.
-(slides_pics/Slide2.png)
+![](slides_pics/Slide2.png)
