@@ -35,8 +35,8 @@ Meanwhile, demographic details such as population of each neighborhood and racia
   <img src="slides_pics/Slide5.PNG" alt="Areal1" width="400" />
   <img src="slides_pics/Slide6.PNG" alt="Areal2" width="400" />
   <img src="slides_pics/Slide7.PNG" alt="Areal3" width="400" />
+  <img src="slides_pics/Slide8.PNG" alt="Areal4" width="400" />
 </div>
 <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
-  <img src="slides_pics/Slide8.PNG" alt="Areal4" width="400" />
   <img src="slides_pics/Slide9.PNG" alt="Areal5" width="400" />
 </div>
