@@ -43,9 +43,19 @@ Meanwhile, demographic details such as population of each neighborhood and racia
 </div>
 
 #### A Measure of Disparity
-To assess disparity, I created a disparity index. It is defined as the vehicle stop rate experienced by a given racial group (total number of stop for a given group in a neighborhood divided by all stops in the neighborhood) divided by the population proportion of that given group (total number of individuals of a given group in a neighborhood divided by total population in the neighborhood).
+To assess disparity, I created a disparity index. It is defined as the vehicle stop rate experienced by a given racial group (total number of stop for a given group in a neighborhood divided by all stops in the neighborhood) divided by the population proportion of that given group (total number of individuals of a given group in a neighborhood divided by total population in the neighborhood). By defining the index this way, we are accounting for a given racial group's population size in each neighborhood.
 ![DIndex](slides_pics/Slide12.PNG)
 
 ##### An Example 
 For example, if a given neighborhood has 10% of Black residents and that 50 out of 100 stops in that neighborhood are Black drivers, we will have a disparity index of 5.0. The way to interpret this is the Black drivers are stopped 5 times more than their population size in that given neighborhood. 
-![DIndexExample](slides_pics/Slide12.PNG)
+![DIndexExample](slides_pics/Slide13.PNG)
+
+#### Main Findings
+Looking across 150 neighborhoods in this city, we found that Black drivers do indeed experience more frequent stops. The mean disparity index experienced by Black individuals across all neighborhoods was at 9.50, significantly higher than for White individuals (0.94). 
+![Result1](slides_pics/Slide14.PNG)
+
+Another way to look at whether disparity exists is to compare how many neighborhoods Black drivers get stopped more than White drivers. It is noted that there are more neighborhoods where Black drivers get stopped more often than their White counterparts.
+![Result2](slides_pics/Slide15.PNG)
+
+Below, I present the raw number of stops experienced by Black and White drivers in all neighborhoods while accounting for the percentage of their respective populations. As you can see in this map, Black drivers are stopped a lot more in White dominant neighborhoods than White drivers being stopped in Black dominant neighborhood. 
+
