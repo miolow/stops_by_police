@@ -32,11 +32,11 @@ To examine this question, data from different sources needed to be pulled and ap
 Meanwhile, demographic details such as population of each neighborhood and racial population makeup of each neighborhood is pulled from the Census. However, this data was only formatted in the form of census tract and not each neighborhood. To resolve this, I conducted areal interpolation, a method used to estimate data from one set of geographic zone to another set. In this case, I was estimating the demographic values of each neighborhood from census tract since I did not have access to neighborhood population data. For example, in attempting to figure out the demographic details of Neighborhood J, I take the proportion of census tract A that overlaps in Neighborhood J and combined it with the proportion of census tract C (80%), census tract D (94%), and census tract E (55%) that also overlapped in Neighborhood J. The combination of these tract's proportions are then used as the estimates for the neighborhood's demographic estimates. 
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="slides_pics/Slide5.PNG" alt="Areal1" width="200" />
-  <img src="slides_pics/Slide6.PNG" alt="Areal2" width="200" />
-  <img src="slides_pics/Slide7.PNG" alt="Areal3" width="200" />
+  <img src="slides_pics/Slide5.PNG" alt="Areal1" width="400" />
+  <img src="slides_pics/Slide6.PNG" alt="Areal2" width="400" />
+  <img src="slides_pics/Slide7.PNG" alt="Areal3" width="400" />
 </div>
 <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
-  <img src="slides_pics/Slide8.PNG" alt="Areal4" width="200" />
-  <img src="slides_pics/Slide9.PNG" alt="Areal5" width="200" />
+  <img src="slides_pics/Slide8.PNG" alt="Areal4" width="400" />
+  <img src="slides_pics/Slide9.PNG" alt="Areal5" width="400" />
 </div>
