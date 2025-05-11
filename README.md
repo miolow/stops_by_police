@@ -60,3 +60,6 @@ Another way to look at whether disparity exists is to compare how many neighborh
 Below, I present the raw number of stops experienced by Black and White drivers in all neighborhoods while accounting for the percentage of their respective populations. As you can see in this map, Black drivers are stopped a lot more in White dominant neighborhoods than White drivers being stopped in Black dominant neighborhood. 
 ![Result3](veh_blackwhite_map.png)
 
+### Conclusion
+This project had identified that disparity exists in the context of Black and White drivers of this given city. Given that this is the case, there are several things that law enforcement can do to remedy this issue. One example is to implement anti-bias training. This type of training can help reduce the effects of unconscious biases that influences their decisions and behavior on the job, especially in high-stress situations. This law enforcement agency needs to reestablish trust with civilians. 
+
